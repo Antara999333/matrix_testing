@@ -1,9 +1,16 @@
 """
-Creating a test code to print sum of 2 integer inputs
+conducting a basic level statistical analysis using pandas
 """
-def multiply(a, b):
-  return (a * b)
+import pandas as pd
+data = {
+    'Name': ['Alice', 'Bob', 'Charlie', 'David'],
+    'Age': [25, 30, 35, 28],
+    'City': ['New York', 'Los Angeles', 'Chicago', 'Houston']
+}
+df = pd.DataFrame(data)
+print("DataFrame:")
+print(df)
+mean_age = df['Age'].mean()
+print(f"Mean Age: {mean_age:.2f}")
 
-def test_multiply():
-  result = multiply(3,5)
-  assert result == 15
+
