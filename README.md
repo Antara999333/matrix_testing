@@ -1,6 +1,7 @@
 
 # IDS-706_Proj2
-[![CI](https://github.com/Antara999333/IDS-706_Proj2/actions/workflows/cicd.yml/badge.svg)](https://github.com/Antara999333/IDS-706_Proj2/actions/workflows/cicd.yml) 
+[![CI](https://github.com/Antara999333/IDS-706_Proj2/actions/workflows/cicd.yml/badge.svg)](https://github.com/Antara999333/IDS-706_Proj2/actions/workflows/cicd.yml)
+
 
 This is my mini project for week 1. I have created a template which I will be using for the rest of my projects. 
 The contents of my repository are as follows:
