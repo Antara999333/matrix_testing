@@ -11,6 +11,6 @@ df = pd.DataFrame(data)
 print("DataFrame:")
 print(df)
 mean_weight = df['weight_in_kg'].mean()
-print(f"Mean weight: {mean_weight:.2f}")
+result =  mean_weight
 
-
+assert result == 39.5
