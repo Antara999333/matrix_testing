@@ -25,7 +25,7 @@ This is used for python projects. It specifies the dependencies of the project. 
 ## mean_using_pandas.py
 This is a simple simple function using pandas to calculate weigt. I have provided the date above the function. 
 
-
+![Image1](MIni proj 2 image.png)
 
 
 
