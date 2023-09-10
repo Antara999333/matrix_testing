@@ -26,7 +26,7 @@ This is used for python projects. It specifies the dependencies of the project. 
 This is a simple simple function using pandas to calculate weigt. I have provided the date above the function. 
 
 
-![Image Alt Text](relative/path/to/Mini%20proj%202%20image.png)
+
 
 
 
