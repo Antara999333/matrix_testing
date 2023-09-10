@@ -27,7 +27,7 @@ This is a simple simple function using pandas to calculate weigt. I have provide
 
 ![Image Alt Text](https://github.com/Antara999333/IDS-706_Proj2/blob/main/MIni%20proj%202%20image.png?raw=true)
 
-
+![Image Alt Text](https://github.com/Antara999333/IDS-706_Proj2/blob/main/descriptive_stats.png?raw=true)
 
 
 
