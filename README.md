@@ -3,7 +3,7 @@
 [![CI](https://github.com/Antara999333/IDS-706_Proj2/actions/workflows/cicd.yml/badge.svg)](https://github.com/Antara999333/IDS-706_Proj2/actions/workflows/cicd.yml)
 
 
-This is my mini project for week 1. I have created a template which I will be using for the rest of my projects. 
+This is my mini project for week 2. I have used my template from Mini Project 1. The objective of this project is to analyze a Covid-19 dataset to analyze statistics about patients who were high at risk due to shortage of icu beds. 
 The contents of my repository are as follows:
 
 ## Readme
@@ -23,8 +23,8 @@ This is used for python projects. It specifies the dependencies of the project. 
  * devcontainer.json -specifies environment variable including installed extensions in the virual environment. 
 
 ## mean_using_pandas.py
-This is a simple simple function using pandas to calculate weigt. I have provided the date above the function. 
-
+This function uses pandas to analyze the mean, median and standard variation for the columns representing high risk patients. 
+I have also use matplotlib to plot a bar graph. 
 ![Image Alt Text](https://github.com/Antara999333/IDS-706_Proj2/blob/main/MIni%20proj%202%20image.png?raw=true)
 
 ![Image Alt Text](https://github.com/Antara999333/IDS-706_Proj2/blob/main/descriptive_stats.png?raw=true)
