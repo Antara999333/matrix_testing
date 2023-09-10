@@ -2,15 +2,31 @@
 conducting a basic level statistical analysis using pandas
 """
 import pandas as pd
-data = {
-    'Name': ['Katy', 'Sara', 'Bob', 'Kim'],
-    'weight_in_kg': [20, 35, 45, 58],
-    'grade': ['5th', '6th', '7th', '8th']
-}
-df = pd.DataFrame(data)
-print("DataFrame:")
-print(df)
-mean_weight = df['weight_in_kg'].mean()
-result =  mean_weight
+import matplotlib.pyplot as plt
 
-assert result == 39.5
+# URL of the CSV file
+url = "https://raw.githubusercontent.com/fivethirtyeight/data/master/covid-geography/mmsa-icu-beds.csv"
+
+# Read the CSV data into a Pandas DataFrame
+df = pd.read_csv(url)
+
+# Calculate summary statistics for the "total_at_risk" column
+total_at_risk_stats = df['total_at_risk'].describe()
+
+# Print the summary statistics
+print(total_at_risk_stats)
+
+
+# Create a DataFrame with your summary statistics
+summary_data = pd.DataFrame({
+    'Statistic': ['Mean', 'Median', 'Standard Deviation'],
+    'Value': [667188.7, 396081.5, 884786.8]
+})
+
+# Create a bar chart
+plt.figure(figsize=(8, 6))
+plt.bar(summary_data['Statistic'], summary_data['Value'], color=['blue', 'green', 'red'])
+plt.ylabel('Value')
+plt.title('Summary Statistics for "total_at_risk"')
+plt.show()
+
