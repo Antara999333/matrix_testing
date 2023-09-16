@@ -28,7 +28,7 @@ I have also use matplotlib to plot a bar graph.
 
 ![Image Alt Text](https://github.com/Antara999333/IDS-706_Proj2/blob/main/desc_stats.png?raw=true)
 ![Image Alt Text](https://github.com/Antara999333/IDS-706_Proj2/blob/main/MIni%20proj%202%20image.png?raw=true)
-
+![Image Alt Text](https://github.com/Antara999333/IDS-706_Proj2/blob/main/CI%2C%20green%20tick%203.png)
 
 
 
