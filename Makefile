@@ -5,9 +5,9 @@ install:
 test:
 	python -m pytest -vv --cov=main --cov=mylib test_*.py
 
-format:
-    black . 
-    nbqa black .ipynb  
+format:	
+	black src/*.py
+	nbqa black src/*.ipynb 
 
  
 	
