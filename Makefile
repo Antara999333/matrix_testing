@@ -10,6 +10,6 @@ format:
 	nbqa black *.ipynb 
 	
 lint:	
-nbqa check *.py  
-nbqa ruff *.ipynb
+	nbqa check *.py  
+	nbqa ruff *.ipynb
 	
