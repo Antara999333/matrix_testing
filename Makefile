@@ -10,4 +10,4 @@ format:
 	
 lint:	
 	nbqa ruff *.py  
-	nbqa ruff *.ipynb
+	nbqa pylint *.ipynb
