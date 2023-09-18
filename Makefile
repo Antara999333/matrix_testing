@@ -8,10 +8,12 @@ test:
 format:	
 	black src/*.py
 	nbqa black src/*.ipynb 
+	
 
  
 	
 
-lint:
+lint:	
 	nbqa ruff *.py  
 	nbqa ruff *.ipynb
+	
