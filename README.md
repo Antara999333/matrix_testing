@@ -1,6 +1,8 @@
 
 # IDS-706_Proj2
 [![CI](https://github.com/Antara999333/IDS-706_Proj2/actions/workflows/cicd.yml/badge.svg)](https://github.com/Antara999333/IDS-706_Proj2/actions/workflows/cicd.yml)
+![Lint](https://img.shields.io/badge/Lint-Passing-brightgreen.svg)
+
 
 
 This is my mini project for week 2. I have used my template from Mini Project 1. The objective of this project is to analyze a Covid-19 dataset to analyze statistics about patients who were high at risk due to shortage of icu beds. 
