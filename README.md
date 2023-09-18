@@ -8,7 +8,8 @@
 
 [![Test](https://github.com/Antara999333/Individual-project/actions/workflows/test.yml/badge.svg)](https://github.com/Antara999333/Individual-project/actions/workflows/test.yml)
 
-# This is my Individual Project 1. . 
+# This is my Individual Project 1. 
+I have created a lib.py file which provides code to both, an ipynb file and a .py file to return descriptive statistics for a data set. 
 
 ##Jupyter Notebook :
 
@@ -30,15 +31,13 @@ Test: This command runs all tests, including those for the notebook, script, and
 Format: It formats the code using Python black, ensuring consistent code style.
 Lint: This command lints the code using Ruff to identify and address any code quality issues.
 OnInstall: It installs project dependencies by running pip install -r requirements.txt.
-Test Files:
 
-test_script.py (tests/test_script_descriptive_stats.py): This file contains tests specifically for the Python script.
-test_lib.py (tests/test_lib.py): Includes tests for the shared library.
-Pinned Requirements File (requirements.txt):
+
+
 
 ## The requirements.txt file specifies exact versions of project dependencies to ensure consistency and reproducibility.
 
-This project structure is designed to provide organization, maintainability, and ease of testing and validation for the descriptive statistics code implemented in both the Jupyter notebook and the Python script. The Makefile commands automate common development tasks, and the inclusion of test files ensures code reliability.
+
 ![Image Alt Text](https://github.com/Antara999333/IDS-706_Proj2/blob/main/desc_stats.png?raw=true)
 ![Image Alt Text](https://github.com/Antara999333/IDS-706_Proj2/blob/main/MIni%20proj%202%20image.png?raw=true)
 
