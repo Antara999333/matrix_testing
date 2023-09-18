@@ -1,27 +1,21 @@
+
 name: Lint
 
 on:
   push:
-    branches:
-      - main
+    branches: [ "main" ]
   pull_request:
-    branches:
-      - main
+    branches: [ "main" ]
+  workflow_dispatch:
 
 jobs:
-  lint:
+  build:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
+      - uses: actions/checkout@v3
+      - name: install packages
+        run: make install
+      - name: lint
+        run: make lint
 
-      - name: Install dependencies
-        run: |
-          pip install --upgrade pip
-          pip install nbqa ruff
-
-      - name: Lint code
-        run: |
-          make lint
 
