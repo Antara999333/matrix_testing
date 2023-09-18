@@ -35,7 +35,8 @@ OnInstall: It installs project dependencies by running pip install -r requiremen
 
 
 
-## The requirements.txt file specifies exact versions of project dependencies to ensure consistency and reproducibility.
+## The requirements.txt file:
+ This specifies exact versions of project dependencies to ensure consistency and reproducibility.
 
 
 ![Image Alt Text](https://github.com/Antara999333/IDS-706_Proj2/blob/main/desc_stats.png?raw=true)
