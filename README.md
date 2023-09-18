@@ -11,7 +11,7 @@
 # This is my Individual Project 1. 
 I have created a lib.py file which provides code to both, an ipynb file and a .py file to return descriptive statistics for a data set. 
 
-##Jupyter Notebook :
+## Jupyter Notebook :
 
 This notebook contains cells that perform descriptive statistics using the Pandas library. It has been validated using the nbval plugin for pytest.
 
