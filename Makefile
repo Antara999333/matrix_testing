@@ -4,3 +4,11 @@ install:
 	
 test:
 	python -m pytest -vv --cov=main --cov=mylib test_*.py
+
+format:
+	black *.py 
+	nbqa black *.ipynb  
+
+lint:
+	nbqa ruff *.py  
+	nbqa ruff *.ipynb
