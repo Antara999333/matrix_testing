@@ -1,7 +1,7 @@
 
 # IDS-706_Proj2
 [![CI](https://github.com/Antara999333/IDS-706_Proj2/actions/workflows/cicd.yml/badge.svg)](https://github.com/Antara999333/IDS-706_Proj2/actions/workflows/cicd.yml)
-![Lint](https://img.shields.io/badge/Lint-Passing-brightgreen.svg)
+
 
 
 
