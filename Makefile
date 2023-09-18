@@ -6,10 +6,10 @@ test:
 	python -m pytest -vv --cov=main --cov=mylib test_*.py
 
 format:	
-	black main/*.py
-	nbqa black main/*.ipynb 
+	black *.py
+	nbqa black *.ipynb 
 	
 lint:	
-	nbqa check main/*.py  
-	nbqa ruff main/*.ipynb
+	nbqa check *.py  
+	nbqa ruff *.ipynb
 	
