@@ -5,6 +5,7 @@
 [![Format](https://github.com/Antara999333/Individual-project/actions/workflows/format.yml/badge.svg)](https://github.com/Antara999333/Individual-project/actions/workflows/format.yml)
 
 [![OnInstall](https://github.com/Antara999333/Individual-project/actions/workflows/install.yml/badge.svg)](https://github.com/Antara999333/Individual-project/actions/workflows/install.yml)
+
 [![Test](https://github.com/Antara999333/Individual-project/actions/workflows/test.yml/badge.svg)](https://github.com/Antara999333/Individual-project/actions/workflows/test.yml)
 
 This is my mini project for week 2. I have used my template from Mini Project 1. The objective of this project is to analyze a Covid-19 dataset to analyze statistics about patients who were high at risk due to shortage of icu beds. 
