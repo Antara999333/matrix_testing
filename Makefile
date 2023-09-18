@@ -11,5 +11,5 @@ format:
 	
 lint:	
 	nbqa check *.py  
-	nbqa ruff *.ipynb
+	nbqa Ruff *.ipynb
 	
