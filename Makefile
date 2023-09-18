@@ -6,8 +6,9 @@ test:
 	python -m pytest -vv --cov=main --cov=mylib test_*.py
 
 format:
-        black .  # Format all Python files in the current directory and subdirectories
-        nbqa black .ipynb  # Format all Jupyter notebooks in the current directory and subdirectories
+    black . 
+    nbqa black .ipynb  
+
  
 	
 
