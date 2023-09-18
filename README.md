@@ -10,11 +10,11 @@
 
 # This is my Individual Project 1. . 
 
-##Jupyter Notebook (src/DescriptiveStats.ipynb):
+##Jupyter Notebook :
 
 This notebook contains cells that perform descriptive statistics using the Pandas library. It has been validated using the nbval plugin for pytest.
 
-## Python Script (src/script_descriptive_stats.py):
+## Python Script :
 
 This script executes the same descriptive statistics using Pandas as the Jupyter notebook.
 
