@@ -8,6 +8,8 @@
 
 [![Test](https://github.com/Antara999333/Individual-project/actions/workflows/test.yml/badge.svg)](https://github.com/Antara999333/Individual-project/actions/workflows/test.yml)
 
+[![Lint](https://github.com/Antara999333/Individual-project/actions/workflows/lint.yml/badge.svg)](https://github.com/Antara999333/Individual-project/actions/workflows/lint.yml)
+
 # This is my Individual Project 1. 
 I have created a lib.py file which provides code to both, an ipynb file and a .py file to return descriptive statistics for a data set. 
 
