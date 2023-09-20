@@ -23,7 +23,8 @@ def perform_data_analysis():
 
     
     plt.figure(figsize=(8, 6))
-    plt.bar(summary_data['Statistic'], summary_data['Value'], color=['blue', 'green', 'red'])
+    plt.bar(summary_data['Statistic'], 
+            summary_data['Value'], color=['blue', 'green', 'red'])
     plt.ylabel('Value')
     plt.title('Summary Statistics for "total_at_risk"')
     plt.show()
