@@ -3,7 +3,8 @@ import matplotlib.pyplot as plt
 
 def perform_data_analysis():
   
-    url = "https://raw.githubusercontent.com/fivethirtyeight/data/master/covid-geography/mmsa-icu-beds.csv"
+    url = "https://raw.githubusercontent.com/fivethirtyeight/data &&\
+    /master/covid-geography/mmsa-icu-beds.csv"
 
     
     df = pd.read_csv(url)
