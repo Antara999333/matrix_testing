@@ -1,11 +1,19 @@
+"""
+    this is the unittest
+"""
 import unittest
-import pandas as pd
 from io import StringIO
 from contextlib import redirect_stdout
 from lib import perform_data_analysis  # Assuming 'lib.py' contains the function
 
-class TestLib(unittest.TestCase):
+class TestLib (unittest.TestCase):
+    """
+        this it the class for unittest
+    """
     def test_perform_data_analysis_print_output(self):
+        """
+            this is performing data analysis
+        """
         # Create a StringIO object to capture printed output
         printed_output = StringIO()
 

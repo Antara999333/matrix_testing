@@ -1,11 +1,19 @@
+"""
+    this is a unittest
+"""
 import unittest
-import pandas as pd
 from io import StringIO
 from contextlib import redirect_stdout
-from lib import perform_data_analysis  
+from lib import perform_data_analysis
 
-class Test_script(unittest.TestCase):
+class TestScript (unittest.TestCase):
+    """
+        this is on performative data analysis
+    """
     def test_perform_data_analysis_print_output(self):
+        """
+        this is my performing docstring
+        """
         # Create a StringIO object to capture printed output
         printed_output = StringIO()
 
