@@ -28,4 +28,9 @@ def perform_data_analysis():
     plt.ylabel('Value')
     plt.title('Summary Statistics for "total_at_risk"')
     plt.show()
-perform_data_analysis()
+
+
+
+
+if __name__ =="__main__":
+  perform_data_analysis()
