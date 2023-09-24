@@ -1,3 +1,4 @@
+[![CI](https://github.com/Antara999333/Individual-project/actions/workflows/cicd.yml/badge.svg)](https://github.com/Antara999333/Individual-project/actions/workflows/cicd.yml)
 [![Format](https://github.com/Antara999333/Individual-project/actions/workflows/format.yml/badge.svg)](https://github.com/Antara999333/Individual-project/actions/workflows/format.yml)
 
 [![OnInstall](https://github.com/Antara999333/Individual-project/actions/workflows/install.yml/badge.svg)](https://github.com/Antara999333/Individual-project/actions/workflows/install.yml)
