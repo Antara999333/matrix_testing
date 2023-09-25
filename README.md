@@ -1,6 +1,6 @@
 
 
-
+[![CI](https://github.com/Antara999333/matrix_testing/actions/workflows/cicd.yml/badge.svg)](https://github.com/Antara999333/matrix_testing/actions/workflows/cicd.yml)
 
 # This is my Mini Project 4
 . 
