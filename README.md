@@ -2,9 +2,8 @@
 
 
 
-# This is my Individual Project 1. 
-I have created a lib.py file which provides code to both, an ipynb file and a .py file to return descriptive statistics for a data set. 
-
+# This is my Mini Project 3. 
+This project shows how GitHub Actions can be used to create a matrix for running a script with different Python versions
 ## Jupyter Notebook :
 
 This notebook contains cells that perform descriptive statistics using the Pandas library. It has been validated using the nbval plugin for pytest.
@@ -31,6 +30,7 @@ OnInstall: It installs project dependencies by running pip install -r requiremen
 
 ## The requirements.txt file:
  This specifies exact versions of project dependencies to ensure consistency and reproducibility.
+ ![Alt Text](mini_4.jpg.png)
 
 
 ![Image Alt Text](https://github.com/Antara999333/IDS-706_Proj2/blob/main/desc_stats.png?raw=true)
