@@ -29,8 +29,6 @@ OnInstall: It installs project dependencies by running pip install -r requiremen
 
 
 
-## The requirements.txt file:
- This specifies exact versions of project dependencies to ensure consistency and reproducibility.
  ![Alt Text](mini_4.jpg.png)
 
 
