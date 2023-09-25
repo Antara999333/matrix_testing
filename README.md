@@ -1,4 +1,4 @@
-![Alt Text](mini_4.jpg.png
+![Alt Text](mini_4.jpg.png)
 
 
 
